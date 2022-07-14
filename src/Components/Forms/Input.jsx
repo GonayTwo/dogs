@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Input.module.css';
 
 const Input = (props) => {
-  console.log(props);
+  //console.log(props);
   return (
     <div className={styles.wrapper}>
       <label htmlFor={props.name} className={styles.label}>
